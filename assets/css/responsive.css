@@ -1,66 +1,76 @@
-@media (max-width: 1579px){
-    .feedback-area .feedback-slider-wrapper{
+@media (max-width: 1579px) {
+    .feedback-area .feedback-slider-wrapper {
         width: 100%;
         margin-left: 0;
         padding: 0 15px;
     }
-    .feedback-area .slick-slide{
+
+    .feedback-area .slick-slide {
         opacity: 1;
     }
 }
-@media (max-width: 1300px){
 
-}
+/* @media (max-width: 1300px) {} */
 
-@media (max-width: 1200px){
-    .header-area .header-btn a{
+@media (max-width: 1200px) {
+    .header-area .header-btn a {
         padding: 15px 13px;
         font-size: 14px;
     }
+
     .footer-area .footer-widget.ml-60,
-    .footer-area .footer-widget.ml-30{
+    .footer-area .footer-widget.ml-30 {
         margin-left: 0;
     }
-    
-    
+
 }
 
-@media (max-width: 991.98px){
-    .container{
+@media (max-width: 991.98px) {
+    .container {
         max-width: 800px;
     }
+
     .hero-area .hero-img {
         display: none;
     }
-    .header-area .desctop-menu{
+
+    .header-area .desctop-menu {
         display: none;
     }
-    .header-area .header-btn button{
+
+    .header-area .header-btn button {
         display: inline-block;
     }
-    .header-area .logo-wrapper a{
+
+    .header-area .logo-wrapper a {
         position: initial;
         max-width: 180px;
         display: inline-block;
     }
-    .header-area .topbar-left .topbar-item:last-child{
+
+    .header-area .topbar-left .topbar-item:last-child {
         margin-left: 10px;
     }
-    .header-area .topbar-left .topbar-item a span{
+
+    .header-area .topbar-left .topbar-item a span {
         display: none;
     }
-    .about-section .about-right{
+
+    .about-section .about-right {
         margin-top: 50px;
     }
-    .about-section .about-left img{
+
+    .about-section .about-left img {
         max-width: 100%;
         width: auto;
     }
-    .team-area .team-btn{
+
+    .team-area .team-btn {
         text-align: left;
         margin-top: 30px;
     }
-    .blog-area .blog-top-content .primary-btn{
+
+    .blog-area .blog-top-content .primary-btn {
         text-align: left;
         margin-top: 30px;
     }
@@ -68,92 +78,110 @@
 }
 
 
-@media (max-width: 767.98px){
-    .container{
+@media (max-width: 767.98px) {
+    .container {
         max-width: 650px;
     }
-    .pricing-section .pricing-column{
+
+    .pricing-section .pricing-column {
         max-width: 450px;
         margin-left: auto;
         margin-right: auto;
     }
-    .feedback-area .fd-single{
+
+    .feedback-area .fd-single {
         display: inline-block !important;
         text-align: center;
     }
-    .feedback-area .fd-right{
+
+    .feedback-area .fd-right {
         margin-left: 0;
         margin-top: 30px;
     }
-    .feedback-area .fd-single .feedback-left img{
+
+    .feedback-area .fd-single .feedback-left img {
         display: inline-block;
     }
 
 }
 
-@media (max-width: 575.98px){
-    .header-area .top-bar{
+@media (max-width: 575.98px) {
+    .header-area .top-bar {
         padding: 6px 10px;
     }
-    .header-area .topbar-right .lang-switcher{
+
+    .header-area .topbar-right .lang-switcher {
         display: none;
 
     }
-    .header-area .header-btn{
+
+    .header-area .header-btn a{
         display: none;
     }
-    h1{
+
+    h1 {
         font-size: 50px;
     }
-    h2{
+
+    h2 {
         font-size: 40px;
     }
-    .about-section .md-wrapper{
+
+    .about-section .md-wrapper {
         flex-direction: column;
         align-items: flex-start;
     }
-    .about-section .md-wrapper .md-content{
+
+    .about-section .md-wrapper .md-content {
         margin-left: 0;
         margin-top: 15px;
     }
-    .about-section .md-wrapper .md-content h5{
+
+    .about-section .md-wrapper .md-content h5 {
         font-size: 22px;
     }
-    .ct-area .ct-column{
-        max-width: 300px;
-        /* margin: 0 auto;
-        margin-bottom: 30px; */
+
+    .ct-area .ct-column {
+        max-width: 300px; 
         margin-left: auto;
         margin-right: auto;
     }
-    .team-area .team-column{
+
+    .team-area .team-column {
         max-width: 360px;
         margin-left: auto;
         margin-right: auto;
     }
-    .team-area .team-title{
+
+    .team-area .team-title {
         text-align: center;
     }
-    .team-area .team-btn{
+
+    .team-area .team-btn {
         text-align: center;
     }
-    .feedback-area .slick-list{
+
+    .feedback-area .slick-list {
         margin: 0 -10px;
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
-    .feedback-area .slick-slide{
+
+    .feedback-area .slick-slide {
         margin: 0 10px;
     }
-    .blog-area .blog-articles article{
+
+    .blog-area .blog-articles article {
         max-width: 400px;
         margin-left: auto;
         margin-right: auto;
     }
-    .blog-area .blog-top-content{
+
+    .blog-area .blog-top-content {
         text-align: center;
     }
-    .blog-area .blog-top-content .primary-btn{
+
+    .blog-area .blog-top-content .primary-btn {
         text-align: center;
     }
 
@@ -162,18 +190,21 @@
 
 
 
-@media (max-width: 480px){
-    .hero-area .hero-left .hero-btns{
+@media (max-width: 480px) {
+    .hero-area .hero-left .hero-btns {
         flex-direction: column;
     }
-    .hero-area .hero-left .primary-btn a{
+
+    .hero-area .hero-left .primary-btn a {
         margin-right: 0;
         margin-bottom: 20px;
     }
-    .hero-area .hero-left .sub-title span{
+
+    .hero-area .hero-left .sub-title span {
         padding-left: 0;
     }
-    .hero-area .hero-left .sub-title span::before{
+
+    .hero-area .hero-left .sub-title span::before {
         bottom: -5px;
     }
 

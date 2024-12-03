@@ -42,6 +42,7 @@ Text-Doman: Saifulio
     --tamplate-fonts: 'DM Sans', sans-serif;
     --primary-color: #4C40F7;
     --secondary-color: #14132B;
+    --white-color: #fff;
 }
 
 * {
@@ -473,6 +474,7 @@ a {
 .header-area .header-btn {
     text-align: right;
     padding-right: 15px;
+    column-gap: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -495,7 +497,8 @@ a {
 
 .header-area .header-btn button {
     border: 0;
-    background-color: transparent;
+    background-color: var(--primary-color);
+    color: var(--white-color);
     font-size: 25px;
     display: none;
 }
